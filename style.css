@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+#resultForm {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#resultForm label {
+    display: block;
+    margin: 8px 0 4px;
+    font-weight: 600;
+    color: #333;
+}
+
+#resultForm input {
+    width: calc(100% - 22px);
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#resultForm button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#resultForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Result Container Styles */
+#resultContainer {
+    display: none;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resultContainer h2 {
+    margin-top: 0;
+    color: #007bff;
+    text-align: center;
+}
+
+/* Table Styles */
+#resultTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#resultTable th, #resultTable td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+#resultTable th {
+    background-color: #f1f1f1;
+    color: #495057;
+}
+
+#resultTable td {
+    background-color: #ffffff;
+    color: #495057;
+}
+
+/* Download Button Styles */
+#downloadBtn {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#downloadBtn:hover {
+    background-color: #218838;
+}
+
+/* Student Name Styles */
+#studentName {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-align: center;
+}
